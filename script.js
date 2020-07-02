@@ -188,7 +188,7 @@ document.querySelector("#frente").addEventListener("click", function () {
 });
 document.querySelector("#setaEsquerda").addEventListener("click", function () {
 //(seleção do objeto + aguardar até que ele seja clicado)    
-  var el = document.querySelector("#aviao"); // criação de uma variavel e recebendo o caminho do objeto
+  var el = document.querySelector("#pc"); // criação de uma variavel e recebendo o caminho do objeto
   el.object3D.position.x -= 0.1; // alteração de uma propriedade posição(eixo x) do objeto. "objeto = objeto - 01"
   
    var el = document.querySelector("#setaEsquerd"); // criação de uma variavel e recebendo objeto
@@ -202,7 +202,7 @@ document.querySelector("#setaEsquerda").addEventListener("click", function () {
 document.querySelector("#setaDireita").addEventListener("click", function () {
 //(seleção do objeto          +      aguardar até que ele seja clicado) 
   
-  var el = document.querySelector("#aviao"); // criação de uma variavel e receber objeto
+  var el = document.querySelector("#pc"); // criação de uma variavel e receber objeto
   el.object3D.position.x += 0.1; // alteração na propriedade ROTAÇÃO (eixo y). "eixo x = eixo x + 0.1"
   
    var el = document.querySelector("#setaDireit");
@@ -216,7 +216,7 @@ document.querySelector("#setaDireita").addEventListener("click", function () {
 document.querySelector("#setaBaixo").addEventListener("click", function () {
 //(seleção do objeto          +      aguardar até que ele seja clicado) 
   
-  var el = document.querySelector("#aviao"); // criação de uma variavel e receber objeto
+  var el = document.querySelector("#pc"); // criação de uma variavel e receber objeto
   el.object3D.position.y -= 0.1; // alteração na propriedade ROTAÇÃO (eixo y). "eixo x = eixo x + 0.1"
   
    var el = document.querySelector("#setaBaix");
@@ -230,7 +230,7 @@ document.querySelector("#setaBaixo").addEventListener("click", function () {
 document.querySelector("#setaCima").addEventListener("click", function () {
 //(seleção do objeto          +      aguardar até que ele seja clicado) 
   
-  var el = document.querySelector("#aviao"); // criação de uma variavel e receber objeto
+  var el = document.querySelector("#pc"); // criação de uma variavel e receber objeto
   el.object3D.position.y += 0.1; // alteração na propriedade ROTAÇÃO (eixo y). "eixo x = eixo x + 0.1"
   
    var el = document.querySelector("#setaCim");
@@ -244,7 +244,7 @@ document.querySelector("#setaCima").addEventListener("click", function () {
 document.querySelector("#aparecer").addEventListener("click", function () {
 //(seleção do objeto          +      aguardar até que ele seja clicado) 
   
-  var el = document.querySelector("#aviao"); // criação de uma variavel e receber objeto
+  var el = document.querySelector("#pc"); // criação de uma variavel e receber objeto
   el.object3D.visible= true; // alteração na propriedade ROTAÇÃO (eixo y). "eixo x = eixo x + 0.1"
   
    var el = document.querySelector("#aparece");
@@ -258,7 +258,7 @@ document.querySelector("#aparecer").addEventListener("click", function () {
 document.querySelector("#desaparecer").addEventListener("click", function () {
 //(seleção do objeto          +      aguardar até que ele seja clicado) 
   
-  var el = document.querySelector("#aviao"); // criação de uma variavel e receber objeto
+  var el = document.querySelector("#pc"); // criação de uma variavel e receber objeto
   el.object3D.visible= false; // alteração na propriedade ROTAÇÃO (eixo y). "eixo x = eixo x + 0.1"
   
    var el = document.querySelector("#aparece");
